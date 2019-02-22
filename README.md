@@ -59,9 +59,13 @@ require_once(__DIR__ . '/vendor/autoload.php');
 // Configure HTTP basic authorization: basicAuth
 $config = Yapily\Configuration::getDefaultConfiguration()
     ->setUsername('YOUR_USERNAME')
-    ->setPassword('YOUR_PASSWORD');
+    ->setPassword('YOUR_PASSWORD')
+    ->setAccessToken(null);
+
 // Configure OAuth2 access token for authorization: tokenAuth
 $config = Yapily\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
+
+
 
 $apiInstance = new Yapily\Api\AccountsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
