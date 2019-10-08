@@ -5,6 +5,7 @@ Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **aer** | **string** |  | [optional] 
 **application_frequency** | **string** |  | [optional] 
+**bank_interest_rate** | **string** |  | [optional] 
 **bank_interest_rate_type** | **string** |  | [optional] 
 **calculation_frequency** | **string** |  | [optional] 
 **deposit_interest_applied_coverage** | **string** |  | [optional] 

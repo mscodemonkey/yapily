@@ -11,6 +11,7 @@ Name | Type | Description | Notes
 **credentials_type** | **string** |  | [optional] 
 **media** | [**\Yapily\Model\Media[]**](Media.md) |  | [optional] 
 **features** | **string[]** |  | [optional] 
+**monitoring** | [**map[string,\Yapily\Model\MonitoringFeatureStatus]**](MonitoringFeatureStatus.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

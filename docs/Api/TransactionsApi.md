@@ -8,7 +8,7 @@ Method | HTTP request | Description
 
 
 # **getTransactionsUsingGET**
-> \Yapily\Model\ApiListResponseOfTransaction getTransactionsUsingGET($consent, $account_id, $with, $from, $before, $limit, $sort)
+> \Yapily\Model\ApiListResponseOfTransaction getTransactionsUsingGET($consent, $account_id, $with, $from, $before, $limit, $sort, $offset)
 
 Get account transactions
 
@@ -38,9 +38,10 @@ $from = "from_example"; // string | from
 $before = "before_example"; // string | before
 $limit = 56; // int | limit
 $sort = "sort_example"; // string | sort
+$offset = 56; // int | offset
 
 try {
-    $result = $apiInstance->getTransactionsUsingGET($consent, $account_id, $with, $from, $before, $limit, $sort);
+    $result = $apiInstance->getTransactionsUsingGET($consent, $account_id, $with, $from, $before, $limit, $sort, $offset);
     print_r($result);
 } catch (Exception $e) {
     echo 'Exception when calling TransactionsApi->getTransactionsUsingGET: ', $e->getMessage(), PHP_EOL;
@@ -59,6 +60,7 @@ Name | Type | Description  | Notes
  **before** | **string**| before | [optional]
  **limit** | **int**| limit | [optional]
  **sort** | **string**| sort | [optional]
+ **offset** | **int**| offset | [optional]
 
 ### Return type
 

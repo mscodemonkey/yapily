@@ -5,6 +5,7 @@ Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **uuid** | **string** | User UUID | [optional] 
 **application_uuid** | **string** |  | [optional] 
+**application_user_id** | **string** |  | [optional] 
 **reference_id** | **string** |  | [optional] 
 **institution_consents** | [**\Yapily\Model\InstitutionConsent[]**](InstitutionConsent.md) |  | [optional] 
 

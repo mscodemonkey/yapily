@@ -6,6 +6,7 @@ Name | Type | Description | Notes
 **authorised_indicator** | **bool** |  | [optional] 
 **buffer_amount** | **string** |  | [optional] 
 **identification** | **string** |  | [optional] 
+**minimum_arranged_overdraft_amount** | **string** |  | [optional] 
 **notes** | **string[]** |  | [optional] 
 **overdraft_fees_charges** | [**\Yapily\Model\OverdraftOverdraftFeesCharges1[]**](OverdraftOverdraftFeesCharges1.md) |  | [optional] 
 **overdraft_tier_band** | [**\Yapily\Model\OverdraftOverdraftTierBand[]**](OverdraftOverdraftTierBand.md) |  | [optional] 

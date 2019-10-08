@@ -3,7 +3,7 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**notes** | **string** |  | [optional] 
+**notes** | **string[]** |  | [optional] 
 **overdraft_tier_band_set** | [**\Yapily\Model\OverdraftOverdraftTierBandSet[]**](OverdraftOverdraftTierBandSet.md) |  | [optional] 
 **tcs_and_cs_url** | **string** |  | [optional] 
 
