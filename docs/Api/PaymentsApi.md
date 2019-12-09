@@ -13,7 +13,7 @@ Method | HTTP request | Description
 
 
 # **createPaymentAuthorisationUsingPOST**
-> \Yapily\Model\ApiResponseOfAuthorisationRequestResponse createPaymentAuthorisationUsingPOST($payment_auth_request)
+> \Yapily\Model\ApiResponseOfPaymentAuthorisationRequestResponse createPaymentAuthorisationUsingPOST($payment_auth_request)
 
 Initiate a payment for user to authorise
 
@@ -55,7 +55,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Yapily\Model\ApiResponseOfAuthorisationRequestResponse**](../Model/ApiResponseOfAuthorisationRequestResponse.md)
+[**\Yapily\Model\ApiResponseOfPaymentAuthorisationRequestResponse**](../Model/ApiResponseOfPaymentAuthorisationRequestResponse.md)
 
 ### Authorization
 

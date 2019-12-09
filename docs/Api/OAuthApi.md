@@ -29,7 +29,7 @@ $apiInstance = new Yapily\Api\OAuthApi(
     new GuzzleHttp\Client(),
     $config
 );
-$grant_type = new \Yapily\Model\\Yapily\Model\Object(); // \Yapily\Model\Object | Grant type
+$grant_type = "client_credentials"; // string | Grant type
 
 try {
     $result = $apiInstance->oauthToken($grant_type);
@@ -44,7 +44,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **grant_type** | [**\Yapily\Model\Object**](../Model/.md)| Grant type | [default to client_credentials]
+ **grant_type** | **string**| Grant type | [default to client_credentials]
 
 ### Return type
 
